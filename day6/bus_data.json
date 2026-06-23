@@ -1,0 +1,66 @@
+{
+  "routes": [
+    {
+      "route_id": "R1",
+      "origin": "City A",
+      "destination": "City B",
+      "stops": [
+        "Stop 1",
+        "Stop 2"
+      ],
+      "departure_time": "09:00"
+    },
+    {
+      "route_id": "R2",
+      "origin": "City C",
+      "destination": "City D",
+      "stops": [
+        "Stop 3",
+        "Stop 4"
+      ],
+      "departure_time": "14:00"
+    },
+    {
+      "route_id": "9000766",
+      "origin": "hyd",
+      "destination": "mumbai",
+      "stops": [
+        "suryapet",
+        "khammam"
+      ],
+      "departure_time": "1900"
+    }
+  ],
+  "drivers": [
+    {
+      "driver_id": "D1",
+      "name": "Carlos",
+      "license_number": "LIC123",
+      "phone": "555-1234"
+    },
+    {
+      "driver_id": "D2",
+      "name": "Mina",
+      "license_number": "LIC456",
+      "phone": "555-5678"
+    }
+  ],
+  "buses": [
+    {
+      "bus_id": "B1",
+      "route_id": "R1",
+      "capacity": 6,
+      "driver_id": "D1",
+      "seats_booked": {}
+    },
+    {
+      "bus_id": "B2",
+      "route_id": "R2",
+      "capacity": 5,
+      "driver_id": "D2",
+      "seats_booked": {}
+    }
+  ],
+  "passengers": [],
+  "next_ticket_id": 1
+}
