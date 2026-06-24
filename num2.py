@@ -1,0 +1,20 @@
+import numpy as np
+
+arr = np.array([1, 2, 3, 4])
+arr1 = np.array([1, 3, 7, 8])
+
+print(np.add(2, arr))
+print(np.divide(2, arr1))
+print(np.array([5]) + arr)
+print("addition is: \n",arr+arr1)
+print("subtraction is: \n",arr-arr1)
+print("multiplication is: \n",arr*arr1)
+print("division is: \n",arr/arr1)
+print(np.mean(arr))
+print(np.std(arr))
+print(np.var(arr))
+print(np.min(arr))
+print(np.max(arr))
+print(np.argmin(arr))
+print(np.argmax(arr))
+print(np.sqrt(arr))
